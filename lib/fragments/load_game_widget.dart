@@ -1,3 +1,4 @@
+import 'package:avia_jump_adventures/ui/main_menu.dart';
 import 'package:flame/flame.dart';
 import 'package:flutter/material.dart';
 import 'package:liquid_progress_indicator/liquid_progress_indicator.dart';
@@ -26,7 +27,7 @@ class _GameWidgetState extends State<LoadGameWidget>
         children: [
           const Image(
             fit: BoxFit.fill,
-            image: AssetImage('assets/images/start_bg.png'),
+            image: AssetImage('assets/main_ui/start_bg.png'),
           ),
           Padding(
             padding: const EdgeInsets.only(left: 30, right: 30),
@@ -62,6 +63,7 @@ class _GameWidgetState extends State<LoadGameWidget>
   }
 
   void _runGame() async {
+    Flame.device.setPortrait();
     WidgetsFlutterBinding.ensureInitialized();
     await Flame.device.fullScreen();
 
@@ -69,7 +71,7 @@ class _GameWidgetState extends State<LoadGameWidget>
     await Assets.load();
     runApp(
       const MaterialApp(
-        debugShowCheckedModeBanner: false,
+        home: MainMenu(),
         onGenerateRoute: Routes.routes,
       ),
     );

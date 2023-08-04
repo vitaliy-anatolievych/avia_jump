@@ -140,7 +140,8 @@ class RequestManager {
       var ref = FirebaseDatabase.instance.ref().child('isOrganic');
       ref.onValue.listen(
         (event) {
-          bool isOpened = bool.fromEnvironment(event.snapshot.value.toString());
+          bool isOpened = event.snapshot.value.toString() == "true";
+          print("STATUS_ISOPENED: ${event.snapshot.value.toString()} | $isOpened}");
           completer.complete(isOpened);
         },
       );

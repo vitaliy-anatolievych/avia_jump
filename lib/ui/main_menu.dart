@@ -38,7 +38,7 @@ class _MainMenuState extends State<MainMenu> {
                 child: IconButton(
                   iconSize: 170.0,
                   onPressed: () {
-                    context.pushAndRemoveUntil(Routes.game);
+                    context.push(Routes.game);
                   },
                   icon: Image.asset('assets/main_ui/btn_play.png'),
                 ),
