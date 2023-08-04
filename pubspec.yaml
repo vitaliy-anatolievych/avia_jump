@@ -1,5 +1,5 @@
 name: avia_jump_adventures
-description: none.
+description: Game similar to Doodle jump made with Flutter.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -30,9 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flame: ^1.7.1
-  flame_forge2d: ^0.13.0+1
-  audioplayers: 1.1.0
+  flame: ^1.8.0
+  flame_forge2d: ^0.14.0
   path_provider: ^2.0.15
   awesome_dialog: ^3.1.0
   shared_preferences: ^2.2.0
@@ -53,6 +52,8 @@ dependencies:
   firebase_database: ^10.2.4
   flutter_facebook_app_links: ^3.0.1+6
   advertising_id: ^2.4.0
+  sensors_plus: ^3.0.2
+  flame_gdx_texture_packer: ^0.5.0
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -82,6 +83,15 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/atlasMap.png
+    - assets/main_ui/
+
+  fonts:
+    - family: DaveysDoodleface
+      fonts:
+        - asset: assets/fonts/DaveysDoodleface.ttf
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg

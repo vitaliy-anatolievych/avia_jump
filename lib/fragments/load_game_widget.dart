@@ -1,6 +1,11 @@
+import 'package:flame/flame.dart';
 import 'package:flutter/material.dart';
 import 'package:liquid_progress_indicator/liquid_progress_indicator.dart';
 import 'package:timer_count_down/timer_count_down.dart';
+
+import '../assets.dart';
+import '../high_scores.dart';
+import '../navigation/routes.dart';
 
 class LoadGameWidget extends StatefulWidget {
   const LoadGameWidget({super.key});
@@ -57,5 +62,16 @@ class _GameWidgetState extends State<LoadGameWidget>
   }
 
   void _runGame() async {
+    WidgetsFlutterBinding.ensureInitialized();
+    await Flame.device.fullScreen();
+
+    await HighScores.load();
+    await Assets.load();
+    runApp(
+      const MaterialApp(
+        debugShowCheckedModeBanner: false,
+        onGenerateRoute: Routes.routes,
+      ),
+    );
   }
 }

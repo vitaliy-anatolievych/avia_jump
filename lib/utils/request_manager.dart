@@ -6,7 +6,6 @@ import 'dart:io';
 import 'package:advertising_id/advertising_id.dart';
 import '../fragments/game_fragment.dart';
 import '/model/naming_model.dart';
-import 'package:firebase_app_installations/firebase_app_installations.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/cupertino.dart';
@@ -268,8 +267,8 @@ class RequestManager {
 
   Future<String?> _getUUID() async {
     final FirebaseMessaging _firebaseMessaging = FirebaseMessaging.instance;
-    var installations = FirebaseInstallations.instance;
-    String installationsId = await installations.getId();
+    // var installations = FirebaseInstallations.instance;
+    // String installationsId = await installations.getId();
     await _firebaseMessaging.requestPermission();
 
     var token = "none";
