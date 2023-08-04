@@ -18,7 +18,7 @@ class BtnFire extends SpriteComponent with Tappable {
   @override
   FutureOr<void> onLoad() {
     size = Vector2(50, 50);
-    position = Vector2(screenX / 2 - 25, screenY - 180);
+    position = Vector2(screenX / 2 - 25, screenY - ((screenY / 10) * 3));
     positionType = PositionType.viewport;
 
     return super.onLoad();

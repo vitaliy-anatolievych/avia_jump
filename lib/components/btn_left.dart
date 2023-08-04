@@ -17,7 +17,8 @@ class BtnLeft extends SpriteComponent with Tappable {
   @override
   FutureOr<void> onLoad() {
     size = Vector2(80, 50);
-    position = Vector2(20, screenY - 180);
+    print("$screenY");
+    position = Vector2(20, screenY - ((screenY / 10) * 3));
     positionType = PositionType.viewport;
 
     return super.onLoad();

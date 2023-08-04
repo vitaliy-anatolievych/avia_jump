@@ -53,6 +53,7 @@ class GameUI extends PositionComponent with HasGameRef<MyGame> {
     final btnLeft = BtnLeft(sprite: Assets.btnLeft, screenY: screenSize.y, hero: hero);
     final btRight = BtnRight(sprite: Assets.btnRight, screenX: screenSize.x, screenY: screenSize.y, hero: hero);
     final btFire = BtnFire(sprite: Assets.btnFire, screenX: screenSize.x, screenY: screenSize.y, hero: hero);
+
     add(btFire);
     add(btRight);
     add(btnLeft);
