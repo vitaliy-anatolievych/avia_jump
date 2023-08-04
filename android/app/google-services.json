@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "488099650993",
+    "project_id": "avia-jump-adventures",
+    "storage_bucket": "avia-jump-adventures.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488099650993:android:dc7f151df1057dba497190",
+        "android_client_info": {
+          "package_name": "com.firtorent.awarz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488099650993-fkmenatt7knk0unvb3ue8qhmehqgvo7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGrfjAOFzS14kEUAB9loWJJbYb70u7pi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488099650993-fkmenatt7knk0unvb3ue8qhmehqgvo7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

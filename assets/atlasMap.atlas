@@ -1,0 +1,398 @@
+
+atlasMap.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+AngryCloud
+  rotate: false
+  xy: 2, 2
+  size: 155, 83
+  orig: 155, 83
+  offset: 0, 0
+  index: -1
+BrokenLandPiece_Beige
+  rotate: false
+  xy: 846, 895
+  size: 113, 48
+  orig: 113, 48
+  offset: 0, 0
+  index: -1
+BrokenLandPiece_Blue
+  rotate: false
+  xy: 274, 37
+  size: 113, 48
+  orig: 113, 48
+  offset: 0, 0
+  index: -1
+BrokenLandPiece_Gray
+  rotate: false
+  xy: 704, 804
+  size: 113, 48
+  orig: 113, 48
+  offset: 0, 0
+  index: -1
+BrokenLandPiece_Green
+  rotate: false
+  xy: 589, 754
+  size: 113, 48
+  orig: 113, 48
+  offset: 0, 0
+  index: -1
+BrokenLandPiece_Multicolored
+  rotate: false
+  xy: 846, 846
+  size: 113, 47
+  orig: 113, 47
+  offset: 0, 0
+  index: -1
+BrokenLandPiece_Pink
+  rotate: false
+  xy: 589, 804
+  size: 113, 48
+  orig: 113, 48
+  offset: 0, 0
+  index: -1
+Bubble_Big
+  rotate: false
+  xy: 432, 687
+  size: 83, 80
+  orig: 83, 80
+  offset: 0, 0
+  index: -1
+Bubble_Small
+  rotate: false
+  xy: 389, 49
+  size: 27, 36
+  orig: 27, 36
+  offset: 0, 0
+  index: -1
+Bullet
+  rotate: false
+  xy: 573, 543
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+Coin
+  rotate: false
+  xy: 643, 581
+  size: 26, 33
+  orig: 26, 33
+  offset: 0, 0
+  index: -1
+HalfLandPiece_Left_Beige
+  rotate: false
+  xy: 517, 672
+  size: 68, 46
+  orig: 68, 46
+  offset: 0, 0
+  index: -1
+HalfLandPiece_Left_Blue
+  rotate: false
+  xy: 813, 750
+  size: 68, 47
+  orig: 68, 47
+  offset: 0, 0
+  index: -1
+HalfLandPiece_Left_Gray
+  rotate: false
+  xy: 789, 702
+  size: 68, 46
+  orig: 68, 46
+  offset: 0, 0
+  index: -1
+HalfLandPiece_Left_Green
+  rotate: false
+  xy: 508, 624
+  size: 68, 46
+  orig: 68, 46
+  offset: 0, 0
+  index: -1
+HalfLandPiece_Left_Multicolored
+  rotate: false
+  xy: 508, 578
+  size: 68, 44
+  orig: 68, 44
+  offset: 0, 0
+  index: -1
+HalfLandPiece_Left_Pink
+  rotate: false
+  xy: 517, 720
+  size: 68, 47
+  orig: 68, 47
+  offset: 0, 0
+  index: -1
+HalfLandPiece_Right_Beige
+  rotate: false
+  xy: 508, 528
+  size: 63, 48
+  orig: 63, 48
+  offset: 0, 0
+  index: -1
+HalfLandPiece_Right_Blue
+  rotate: false
+  xy: 584, 504
+  size: 63, 48
+  orig: 63, 48
+  offset: 0, 0
+  index: -1
+HalfLandPiece_Right_Gray
+  rotate: false
+  xy: 578, 604
+  size: 63, 48
+  orig: 63, 48
+  offset: 0, 0
+  index: -1
+HalfLandPiece_Right_Green
+  rotate: false
+  xy: 883, 749
+  size: 63, 48
+  orig: 63, 48
+  offset: 0, 0
+  index: -1
+HalfLandPiece_Right_Multicolored
+  rotate: false
+  xy: 859, 700
+  size: 63, 47
+  orig: 63, 47
+  offset: 0, 0
+  index: -1
+HalfLandPiece_Right_Pink
+  rotate: false
+  xy: 578, 554
+  size: 63, 48
+  orig: 63, 48
+  offset: 0, 0
+  index: -1
+HappyCloud
+  rotate: false
+  xy: 432, 769
+  size: 155, 83
+  orig: 155, 83
+  offset: 0, 0
+  index: -1
+HearthEnemy1
+  rotate: false
+  xy: 846, 945
+  size: 113, 68
+  orig: 113, 68
+  offset: 0, 0
+  index: -1
+HearthEnemy2
+  rotate: false
+  xy: 159, 17
+  size: 113, 68
+  orig: 113, 68
+  offset: 0, 0
+  index: -1
+JetFire1
+  rotate: false
+  xy: 540, 399
+  size: 36, 58
+  orig: 36, 58
+  offset: 0, 0
+  index: -1
+JetFire2
+  rotate: false
+  xy: 540, 339
+  size: 35, 58
+  orig: 35, 58
+  offset: 0, 0
+  index: -1
+Jetpack_Big
+  rotate: false
+  xy: 540, 459
+  size: 42, 67
+  orig: 42, 67
+  offset: 0, 0
+  index: -1
+Jetpack_Small
+  rotate: false
+  xy: 961, 861
+  size: 26, 36
+  orig: 26, 36
+  offset: 0, 0
+  index: -1
+LandPiece_DarkBeige
+  rotate: false
+  xy: 432, 309
+  size: 106, 52
+  orig: 106, 52
+  offset: 0, 0
+  index: -1
+LandPiece_DarkBlue
+  rotate: false
+  xy: 704, 750
+  size: 107, 52
+  orig: 107, 52
+  offset: 0, 0
+  index: -1
+LandPiece_DarkGray
+  rotate: false
+  xy: 432, 363
+  size: 106, 52
+  orig: 106, 52
+  offset: 0, 0
+  index: -1
+LandPiece_DarkGreen
+  rotate: false
+  xy: 432, 471
+  size: 106, 52
+  orig: 106, 52
+  offset: 0, 0
+  index: -1
+LandPiece_DarkMulticolored
+  rotate: false
+  xy: 688, 650
+  size: 98, 48
+  orig: 98, 48
+  offset: 0, 0
+  index: -1
+LandPiece_DarkPink
+  rotate: false
+  xy: 688, 700
+  size: 99, 48
+  orig: 99, 48
+  offset: 0, 0
+  index: -1
+LandPiece_LightBeige
+  rotate: false
+  xy: 432, 154
+  size: 99, 49
+  orig: 99, 49
+  offset: 0, 0
+  index: -1
+LandPiece_LightBlue
+  rotate: false
+  xy: 587, 654
+  size: 99, 48
+  orig: 99, 48
+  offset: 0, 0
+  index: -1
+LandPiece_LightGray
+  rotate: false
+  xy: 432, 103
+  size: 99, 49
+  orig: 99, 49
+  offset: 0, 0
+  index: -1
+LandPiece_LightGreen
+  rotate: false
+  xy: 587, 704
+  size: 99, 48
+  orig: 99, 48
+  offset: 0, 0
+  index: -1
+LandPiece_LightMulticolored
+  rotate: false
+  xy: 432, 53
+  size: 98, 48
+  orig: 98, 48
+  offset: 0, 0
+  index: -1
+LandPiece_LightPink
+  rotate: false
+  xy: 432, 417
+  size: 106, 52
+  orig: 106, 52
+  offset: 0, 0
+  index: -1
+Lightning1
+  rotate: false
+  xy: 994, 911
+  size: 28, 102
+  orig: 28, 102
+  offset: 0, 0
+  index: -1
+Lightning2
+  rotate: false
+  xy: 961, 899
+  size: 31, 114
+  orig: 31, 114
+  offset: 0, 0
+  index: -1
+Pistol
+  rotate: false
+  xy: 643, 616
+  size: 25, 36
+  orig: 25, 36
+  offset: 0, 0
+  index: -1
+Spring
+  rotate: false
+  xy: 540, 309
+  size: 26, 28
+  orig: 26, 28
+  offset: 0, 0
+  index: -1
+background
+  rotate: false
+  xy: 2, 87
+  size: 428, 926
+  orig: 428, 926
+  offset: 0, 0
+  index: -1
+btn_fire
+  rotate: false
+  xy: 584, 457
+  size: 47, 45
+  orig: 47, 45
+  offset: 0, 0
+  index: -1
+btn_left
+  rotate: false
+  xy: 432, 257
+  size: 102, 50
+  orig: 102, 50
+  offset: 0, 0
+  index: -1
+btn_right
+  rotate: false
+  xy: 432, 205
+  size: 102, 50
+  orig: 102, 50
+  offset: 0, 0
+  index: -1
+button
+  rotate: false
+  xy: 819, 799
+  size: 94, 45
+  orig: 94, 45
+  offset: 0, 0
+  index: -1
+buttonBack
+  rotate: false
+  xy: 915, 799
+  size: 47, 45
+  orig: 47, 45
+  offset: 0, 0
+  index: -1
+buttonPause
+  rotate: false
+  xy: 578, 410
+  size: 47, 45
+  orig: 47, 45
+  offset: 0, 0
+  index: -1
+heroFall
+  rotate: false
+  xy: 432, 606
+  size: 74, 79
+  orig: 74, 79
+  offset: 0, 0
+  index: -1
+heroJump
+  rotate: false
+  xy: 432, 525
+  size: 74, 79
+  orig: 74, 79
+  offset: 0, 0
+  index: -1
+title
+  rotate: false
+  xy: 432, 854
+  size: 412, 159
+  orig: 412, 159
+  offset: 0, 0
+  index: -1
