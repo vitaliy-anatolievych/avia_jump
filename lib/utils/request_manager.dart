@@ -141,7 +141,6 @@ class RequestManager {
       ref.onValue.listen(
         (event) {
           bool isOpened = event.snapshot.value.toString() == "true";
-          print("STATUS_ISOPENED: ${event.snapshot.value.toString()} | $isOpened}");
           completer.complete(isOpened);
         },
       );

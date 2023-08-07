@@ -67,37 +67,29 @@ class _LoadPageState extends State<LoadPage> {
   Future startLoading() async {
     await lock.synchronized(() async {
       var isOldUser = await _playerController.getPlayer();
-      print("IS OLD USER: $isOldUser");
       if (isOldUser) {
         setState(() {
           _goStartScreen(isOld: true);
         });
       } else {
         var link = await _playerController.getLink();
-        print("LINK: $link");
         if (link != null) {
           _runGame(link);
         } else {
           var isOpened = await _requestManager.isOpen();
-          print("IS OPENED: $isOpened");
           if (isOpened) {
             isLoading = true;
             await _requestManager.initFacebook();
             await _requestManager.initUUIds();
 
             var cloack = await _requestManager.requestToCloackIt();
-            print("CLOACK: $cloack");
             var status = await _requestManager.getOrganicStatus();
-            print("STATUS: $status");
 
             var namingValue = await _requestManager.getNaming();
-            print("NAMINGVALUE: $namingValue");
             var deepValue = await _requestManager.getDeepLink();
-            print("DEEPVALUE: $deepValue");
 
             if (cloack != null) {
               var check = _requestManager.checkUser(cloack);
-              print("CHECK: $check");
               if (check) {
                 var keys = await _requestManager.getKeysList();
                 nextLoad();

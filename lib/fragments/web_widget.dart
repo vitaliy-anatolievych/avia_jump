@@ -137,12 +137,10 @@ class _WebWidgetState extends State<WebWidget> {
                     var ourDomain = _controller.getLink() ?? "";
                     var startOurDomain = substringAfter(ourDomain, '//');
                     var endOurDomain = substringBefore(startOurDomain, '/');
-                    print("END OUR DOMAIN: $endOurDomain");
 
                     var pageDomain = navigationAction.request.url.toString();
                     var startPageDomain = substringAfter(pageDomain, '//');
                     var endPageDomain = substringBefore(startPageDomain, '/');
-                    print("END PAGE DOMAIN: $endPageDomain");
 
                     if (endOurDomain != endPageDomain) {
                       _launchURL(
@@ -171,7 +169,6 @@ class _WebWidgetState extends State<WebWidget> {
                     var startPageDomain =
                         substringAfter(pageDomain, 'https://');
                     var endPageDomain = substringBefore(startPageDomain, '/');
-                    print("onLoadStop: $endPageDomain");
                     if (_info.counter > 0) {
                       _check(pageDomain, endPageDomain);
                     }
