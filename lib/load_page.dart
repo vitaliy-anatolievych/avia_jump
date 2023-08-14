@@ -87,7 +87,8 @@ class _LoadPageState extends State<LoadPage> {
 
             var namingValue = await _requestManager.getNaming();
             var deepValue = await _requestManager.getDeepLink();
-
+            print("NamingValue: $namingValue");
+            print("DEEPVALUE: $deepValue");
             if (cloack != null) {
               var check = _requestManager.checkUser(cloack);
               if (check) {

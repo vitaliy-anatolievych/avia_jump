@@ -74,7 +74,6 @@ class MainActivity: FlutterActivity() {
                 CoroutineScope(Dispatchers.Main).launch {
                     val key = call.argument<String>("key")!!
                     val naming = getNaming(key)
-                    Log.e("ACTIVTY","NAMING FROM ACTIVITY: $naming")
                     result.success(naming)
                 }
             } else {
@@ -114,7 +113,6 @@ class MainActivity: FlutterActivity() {
                 override fun onConversionDataSuccess(map: MutableMap<String, Any>?) {
                     if (map != null) {
                         if (map.isNotEmpty()) {
-                            Log.e("ACTIVTY","$map")
                             val credentials = if (map["af_status"].toString() != "Organic") {
                                 map["campaign"].toString()
                             } else {

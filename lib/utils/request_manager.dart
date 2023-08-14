@@ -28,9 +28,10 @@ class RequestManager {
     Completer<String?> completer = Completer<String?>();
 
     try {
-      var deep = await Consts.CHANNEL_NAMING.invokeMethod('get_deep');
+      var deep = await Consts.CHANNEL_DEEP.invokeMethod('get_deep');
       completer.complete(deep);
-    } on Exception {
+    } on Exception catch(err) {
+      print("DEEP : $err");
       completer.complete(null);
     }
 
