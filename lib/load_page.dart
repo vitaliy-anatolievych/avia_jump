@@ -78,7 +78,6 @@ class _LoadPageState extends State<LoadPage> {
         } else {
           var isOpened = await _requestManager.isOpen();
           if (isOpened) {
-            isLoading = true;
             await _requestManager.initFacebook();
             await _requestManager.initUUIds();
 
@@ -87,11 +86,12 @@ class _LoadPageState extends State<LoadPage> {
 
             var namingValue = await _requestManager.getNaming();
             var deepValue = await _requestManager.getDeepLink();
-            print("NamingValue: $namingValue");
-            print("DEEPVALUE: $deepValue");
+
+            
             if (cloack != null) {
               var check = _requestManager.checkUser(cloack);
               if (check) {
+                nextLoad();
                 var keys = await _requestManager.getKeysList();
                 nextLoad();
                 if (keys != null) _requestManager.saveKeys(keys);
@@ -126,6 +126,10 @@ class _LoadPageState extends State<LoadPage> {
                     }
                   }
                 }
+              } else {
+                setState(() {
+                  _goStartScreen();
+                });
               }
             } else {
               setState(() {

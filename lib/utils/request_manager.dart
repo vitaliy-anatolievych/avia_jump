@@ -31,7 +31,6 @@ class RequestManager {
       var deep = await Consts.CHANNEL_DEEP.invokeMethod('get_deep');
       completer.complete(deep);
     } on Exception catch(err) {
-      print("DEEP : $err");
       completer.complete(null);
     }
 
@@ -109,7 +108,7 @@ class RequestManager {
         bool isOpen = response.body.toLowerCase() == 'true';
         return isOpen;
       } else {
-        return null;
+        return false;
       }
     } on Exception {
       return null;
